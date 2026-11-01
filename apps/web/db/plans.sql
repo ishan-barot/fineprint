@@ -1,0 +1,15 @@
+insert into plans (carrier, name, monthly_price, data_gb, network, url, last_verified) values
+('Fizz', 'Custom 100GB 5G (unlimited talk + text)', 35.00, 100, '5G', 'https://fizz.ca/en/bring-your-own-phone-plans', '2026-11-01'),
+('Public Mobile', '1GB Canada-wide', 22.00, 1, '4G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Public Mobile', '5GB Canada-wide', 24.00, 5, '4G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Public Mobile', '10GB Canada-wide', 28.00, 10, '4G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Public Mobile', '35GB Canada-wide', 30.00, 35, '4G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Public Mobile', '50GB Canada-wide', 35.00, 50, '5G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Public Mobile', '70GB Canada-US-Mexico', 40.00, 70, '5G', 'https://www.publicmobile.ca/en/plans', '2026-11-01'),
+('Koodo', '20GB 5G (promo, incl. autopay discount)', 45.00, 20, '5G', 'https://www.koodomobile.com/en/shop/mobility/plans/bring-your-own-phone', '2026-11-01'),
+('Koodo', '60GB 5G (promo, incl. autopay discount)', 50.00, 60, '5G', 'https://www.koodomobile.com/en/shop/mobility/plans/bring-your-own-phone', '2026-11-01'),
+('Freedom', 'Total Freedom 10GB (digital discount)', 35.00, 10, '5G', 'https://shop.freedommobile.ca/en-CA/plans', '2026-11-01'),
+('Freedom', 'Total Freedom 70GB (digital discount)', 40.00, 70, '5G', 'https://shop.freedommobile.ca/en-CA/plans', '2026-11-01'),
+('Freedom', 'Total Freedom 125GB (digital discount)', 45.00, 125, '5G', 'https://shop.freedommobile.ca/en-CA/plans', '2026-11-01'),
+('Freedom', 'Total Freedom 175GB (digital discount)', 50.00, 175, '5G', 'https://shop.freedommobile.ca/en-CA/plans', '2026-11-01'),
+('Freedom', 'Total Freedom 250GB (digital discount)', 60.00, 250, '5G', 'https://shop.freedommobile.ca/en-CA/plans', '2026-11-01');
