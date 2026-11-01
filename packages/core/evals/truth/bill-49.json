@@ -1,0 +1,12 @@
+{
+  "carrier": "Lakeshore Cellular",
+  "planName": "Student 25",
+  "monthlyPlanPrice": 39,
+  "dataCapGB": 25,
+  "dataUsedGB": 16.03,
+  "overageCharges": 0,
+  "promoDiscount": 15,
+  "promoEndDate": "2026-12-07",
+  "totalDue": 29.95,
+  "lineItemCount": 4
+}

@@ -1,0 +1,12 @@
+{
+  "carrier": "Boreal Telecom",
+  "planName": "Unlimited Edge",
+  "monthlyPlanPrice": 85,
+  "dataCapGB": null,
+  "dataUsedGB": 70.78,
+  "overageCharges": 0,
+  "promoDiscount": 5,
+  "promoEndDate": "2026-11-01",
+  "totalDue": 96.04,
+  "lineItemCount": 4
+}

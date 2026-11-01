@@ -1,0 +1,12 @@
+{
+  "carrier": "Lakeshore Cellular",
+  "planName": "Max 100",
+  "monthlyPlanPrice": 75,
+  "dataCapGB": 100,
+  "dataUsedGB": 75.2,
+  "overageCharges": 0,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 87.58,
+  "lineItemCount": 3
+}

@@ -1,0 +1,12 @@
+{
+  "carrier": "Northpeak Wireless",
+  "planName": "Basic 10",
+  "monthlyPlanPrice": 34,
+  "dataCapGB": 10,
+  "dataUsedGB": 0.6,
+  "overageCharges": 0,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 41.25,
+  "lineItemCount": 3
+}

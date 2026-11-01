@@ -1,0 +1,12 @@
+{
+  "carrier": "Maplewave Mobile",
+  "planName": "Unlimited Edge",
+  "monthlyPlanPrice": 85,
+  "dataCapGB": null,
+  "dataUsedGB": 36.3,
+  "overageCharges": 0,
+  "promoDiscount": 10,
+  "promoEndDate": "2026-12-02",
+  "totalDue": 84.75,
+  "lineItemCount": 3
+}

@@ -1,0 +1,13 @@
+Boreal Telecom | Monthly Statement
+Acct # 5180-9729-83   Line 416-555-5421
+Rate plan - Basic 10
+Included data - 10 GB
+Usage this period - 8.08 GB
+
+Description,Amount
+Basic 10 plan,34.00
+Promo credit (ends Nov 7, 2026),-5.00
+System access fee,2.50
+HST 13%,4.10
+
+Amount owing,35.60

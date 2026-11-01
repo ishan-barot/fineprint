@@ -1,0 +1,12 @@
+Maplewave Mobile | Monthly Statement
+Acct # 4795-6829-55   Line 416-555-1170
+Rate plan - Student 25
+Included data - 25 GB
+Usage this period - 17.9 GB
+
+Description,Amount
+Student 25 plan,39.00
+Promo credit (ends Nov 25, 2026),-5.00
+HST 13%,4.42
+
+Amount owing,38.42

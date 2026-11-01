@@ -1,0 +1,13 @@
+Northpeak Wireless | Monthly Statement
+Acct # 8040-4067-80   Line 416-555-5314
+Rate plan - Max 100
+Included data - 100 GB
+Usage this period - 27.09 GB
+
+Description,Amount
+Max 100 plan,75.00
+Promo credit (ends Dec 10, 2026),-5.00
+System access fee,2.50
+HST 13%,9.43
+
+Amount owing,81.93

@@ -1,0 +1,12 @@
+Lakeshore Cellular | Monthly Statement
+Acct # 8386-2698-60   Line 416-555-5413
+Rate plan - Plus 50
+Included data - 50 GB
+Usage this period - 39.74 GB
+
+Description,Amount
+Plus 50 plan,55.00
+Visual Voicemail add-on,5.00
+HST 13%,7.80
+
+Amount owing,67.80

@@ -1,0 +1,13 @@
+Boreal Telecom | Monthly Statement
+Acct # 8016-5407-41   Line 416-555-4520
+Rate plan - Plus 50
+Included data - 50 GB
+Usage this period - 16.4 GB
+
+Description,Amount
+Plus 50 plan,55.00
+Promo credit (ends Nov 12, 2026),-5.00
+System access fee,2.50
+HST 13%,6.83
+
+Amount owing,59.33

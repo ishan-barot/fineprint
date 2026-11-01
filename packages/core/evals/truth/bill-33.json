@@ -1,0 +1,12 @@
+{
+  "carrier": "Boreal Telecom",
+  "planName": "Plus 50",
+  "monthlyPlanPrice": 55,
+  "dataCapGB": 50,
+  "dataUsedGB": 50.81,
+  "overageCharges": 10,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 79.1,
+  "lineItemCount": 4
+}

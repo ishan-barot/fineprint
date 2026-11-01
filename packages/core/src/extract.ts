@@ -2,10 +2,9 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { BillSchema, type Bill } from "./schema";
 
-export const MODEL = process.env.FINEPRINT_MODEL ?? "claude-sonnet-5-5";
+export const MODEL = process.env.FINEPRINT_MODEL ?? "claude-haiku-5-5";
 
-const SYSTEM = `You read redacted Canadian phone bills and return structured data with the save_bill tool.
-- Amounts are CAD numbers with no $ sign. Credits and discounts are negative line items.
+const SYSTEM = `You read redacted Canadian phone bills. Always answer by calling the save_bill tool exactly once, with no other text.- Amounts are CAD numbers with no $ sign. Credits and discounts are negative line items.
 - monthlyPlanPrice is the base plan price before discounts and tax.
 - dataCapGB is null for unlimited plans. dataUsedGB is null if the bill doesn't say.
 - promoDiscount is the monthly promo credit as a positive number. promoEndDate is YYYY-MM-DD. Both null if there is no promo.
@@ -30,7 +29,6 @@ export async function extractBill(billText: string, client: Client = new Anthrop
       max_tokens: 4096,
       system: SYSTEM,
       tools: [{ name: "save_bill", description: "Save the parsed bill", input_schema: billJsonSchema as Anthropic.Tool.InputSchema }],
-      tool_choice: { type: "tool", name: "save_bill" },
       messages: [{ role: "user", content }],
     });
 
@@ -40,5 +38,5 @@ export async function extractBill(billText: string, client: Client = new Anthrop
     lastError = parsed.error.message.slice(0, 800);
   }
 
-  throw new ExtractionError("couldn't read this bill");
+  throw new ExtractionError(`couldn't read this bill: ${lastError}`);
 }

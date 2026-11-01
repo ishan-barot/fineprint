@@ -1,0 +1,12 @@
+{
+  "carrier": "Northpeak Wireless",
+  "planName": "Student 25",
+  "monthlyPlanPrice": 39,
+  "dataCapGB": 25,
+  "dataUsedGB": 27.97,
+  "overageCharges": 30,
+  "promoDiscount": 10,
+  "promoEndDate": "2026-11-22",
+  "totalDue": 66.67,
+  "lineItemCount": 4
+}

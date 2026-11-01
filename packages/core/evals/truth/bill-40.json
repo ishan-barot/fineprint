@@ -1,0 +1,12 @@
+{
+  "carrier": "Maplewave Mobile",
+  "planName": "Student 25",
+  "monthlyPlanPrice": 39,
+  "dataCapGB": 25,
+  "dataUsedGB": 17.9,
+  "overageCharges": 0,
+  "promoDiscount": 5,
+  "promoEndDate": "2026-11-25",
+  "totalDue": 38.42,
+  "lineItemCount": 3
+}

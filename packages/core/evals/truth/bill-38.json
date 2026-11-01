@@ -1,0 +1,12 @@
+{
+  "carrier": "Boreal Telecom",
+  "planName": "Student 25",
+  "monthlyPlanPrice": 39,
+  "dataCapGB": 25,
+  "dataUsedGB": 8.27,
+  "overageCharges": 0,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 46.9,
+  "lineItemCount": 3
+}

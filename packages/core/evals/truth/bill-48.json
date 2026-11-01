@@ -1,0 +1,12 @@
+{
+  "carrier": "Maplewave Mobile",
+  "planName": "Basic 10",
+  "monthlyPlanPrice": 34,
+  "dataCapGB": 10,
+  "dataUsedGB": 9.62,
+  "overageCharges": 0,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 49.71,
+  "lineItemCount": 4
+}

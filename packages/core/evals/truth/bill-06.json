@@ -1,0 +1,12 @@
+{
+  "carrier": "Northpeak Wireless",
+  "planName": "Unlimited Edge",
+  "monthlyPlanPrice": 85,
+  "dataCapGB": null,
+  "dataUsedGB": 45.16,
+  "overageCharges": 0,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 107.34,
+  "lineItemCount": 4
+}

@@ -1,0 +1,13 @@
+Boreal Telecom | Monthly Statement
+Acct # 1904-7346-68   Line 416-555-9390
+Rate plan - Unlimited Edge
+Included data - Unlimited
+Usage this period - 57.52 GB
+
+Description,Amount
+Unlimited Edge plan,85.00
+Promo credit (ends Dec 19, 2026),-10.00
+System access fee,4.99
+HST 13%,10.40
+
+Amount owing,90.39

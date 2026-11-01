@@ -1,0 +1,12 @@
+{
+  "carrier": "Boreal Telecom",
+  "planName": "Basic 10",
+  "monthlyPlanPrice": 34,
+  "dataCapGB": 10,
+  "dataUsedGB": 9.05,
+  "overageCharges": 0,
+  "promoDiscount": 5,
+  "promoEndDate": "2026-11-23",
+  "totalDue": 32.77,
+  "lineItemCount": 3
+}

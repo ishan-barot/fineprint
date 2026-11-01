@@ -1,0 +1,9 @@
+Hi there, here's your Boreal Telecom bill for October 2026.
+Customer no. 6370-5848-10. Your number: 416-555-4466.
+You're on Basic 10, which includes 10 GB of data. You used 9.05 GB.
+
+- Basic 10 plan: $34.00
+- Promo credit (ends Nov 23, 2026): -$5.00
+- HST 13%: $3.77
+
+Please pay $32.77 by Nov 20, 2026.

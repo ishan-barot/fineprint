@@ -1,0 +1,13 @@
+Lakeshore Cellular | Monthly Statement
+Acct # 9445-6104-58   Line 416-555-1384
+Rate plan - Student 25
+Included data - 25 GB
+Usage this period - 16.03 GB
+
+Description,Amount
+Student 25 plan,39.00
+Promo credit (ends Dec 7, 2026),-15.00
+System access fee,2.50
+HST 13%,3.45
+
+Amount owing,29.95

@@ -1,0 +1,12 @@
+{
+  "carrier": "Maplewave Mobile",
+  "planName": "Plus 50",
+  "monthlyPlanPrice": 55,
+  "dataCapGB": 50,
+  "dataUsedGB": 61.19,
+  "overageCharges": 120,
+  "promoDiscount": null,
+  "promoEndDate": null,
+  "totalDue": 197.75,
+  "lineItemCount": 3
+}

@@ -1,0 +1,12 @@
+Lakeshore Cellular | Monthly Statement
+Acct # 4000-7439-25   Line 416-555-8670
+Rate plan - Unlimited Edge
+Included data - Unlimited
+Usage this period - 26.95 GB
+
+Description,Amount
+Unlimited Edge plan,85.00
+System access fee,2.50
+HST 13%,11.38
+
+Amount owing,98.88

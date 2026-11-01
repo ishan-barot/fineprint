@@ -1,0 +1,12 @@
+Maplewave Mobile | Monthly Statement
+Acct # 6507-4440-57   Line 416-555-8442
+Rate plan - Plus 50
+Included data - 50 GB
+Usage this period - 61.19 GB
+
+Description,Amount
+Plus 50 plan,55.00
+Data overage 12 GB,120.00
+HST 13%,22.75
+
+Amount owing,197.75

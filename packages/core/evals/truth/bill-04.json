@@ -1,0 +1,12 @@
+{
+  "carrier": "Northpeak Wireless",
+  "planName": "Max 100",
+  "monthlyPlanPrice": 75,
+  "dataCapGB": 100,
+  "dataUsedGB": 27.09,
+  "overageCharges": 0,
+  "promoDiscount": 5,
+  "promoEndDate": "2026-12-10",
+  "totalDue": 81.93,
+  "lineItemCount": 4
+}

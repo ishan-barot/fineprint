@@ -1,0 +1,13 @@
+Lakeshore Cellular | Monthly Statement
+Acct # 1011-3449-94   Line 416-555-1084
+Rate plan - Max 100
+Included data - 100 GB
+Usage this period - 52.76 GB
+
+Description,Amount
+Max 100 plan,75.00
+System access fee,4.99
+Visual Voicemail add-on,5.00
+HST 13%,11.05
+
+Amount owing,96.04

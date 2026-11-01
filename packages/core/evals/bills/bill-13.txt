@@ -1,0 +1,12 @@
+Lakeshore Cellular | Monthly Statement
+Acct # 4682-9108-65   Line 416-555-7193
+Rate plan - Plus 50
+Included data - 50 GB
+Usage this period - 29.3 GB
+
+Description,Amount
+Plus 50 plan,55.00
+System access fee,2.50
+HST 13%,7.48
+
+Amount owing,64.98

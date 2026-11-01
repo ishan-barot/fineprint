@@ -1,0 +1,12 @@
+{
+  "carrier": "Lakeshore Cellular",
+  "planName": "Unlimited Edge",
+  "monthlyPlanPrice": 85,
+  "dataCapGB": null,
+  "dataUsedGB": 39.16,
+  "overageCharges": 0,
+  "promoDiscount": 10,
+  "promoEndDate": "2026-12-08",
+  "totalDue": 84.75,
+  "lineItemCount": 3
+}

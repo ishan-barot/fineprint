@@ -1,0 +1,13 @@
+Boreal Telecom | Monthly Statement
+Acct # 2859-4440-59   Line 416-555-4571
+Rate plan - Plus 50
+Included data - 50 GB
+Usage this period - 14.9 GB
+
+Description,Amount
+Plus 50 plan,55.00
+System access fee,2.50
+Visual Voicemail add-on,5.00
+HST 13%,8.13
+
+Amount owing,70.63
