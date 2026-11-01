@@ -10,4 +10,4 @@ test-results
 .env.*
 !.env.example
 packages/core/evals/results
-*.log
+*.logapps/web/public/pdf.worker.min.mjs
