@@ -1,0 +1,19 @@
+{
+  "bill": {
+    "carrier": "Maplewave Mobile", "planName": "Plus 50", "monthlyPlanPrice": 55, "dataCapGB": 50, "dataUsedGB": 4,
+    "overageCharges": 0, "promoDiscount": 15, "promoEndDate": "2026-11-21", "totalDue": 45.85,
+    "lineItems": [
+      { "description": "Plus 50 plan", "amount": 55, "category": "plan", "explanation": "Your base monthly plan." },
+      { "description": "Promo credit", "amount": -15, "category": "promo_credit", "explanation": "A temporary discount that ends soon." },
+      { "description": "HST 13%", "amount": 5.85, "category": "tax", "explanation": "Ontario sales tax on your bill." }
+    ]
+  },
+  "flags": [
+    { "kind": "promo_ending", "message": "Promo ends in 23 days → bill jumps $15.00", "extraPerYear": 180 },
+    { "kind": "low_usage", "message": "You used 4 GB of a 50 GB plan", "extraPerYear": null }
+  ],
+  "matches": [
+    { "id": 1, "carrier": "Example", "name": "Basic 10", "monthlyPrice": 25, "dataGB": 10, "network": "5G",
+      "url": "https://example.com", "lastVerified": "2026-11-01", "savingsPerYear": 360 }
+  ]
+}
