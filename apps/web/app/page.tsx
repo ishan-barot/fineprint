@@ -115,7 +115,7 @@ function Results({ result }: { result: Result }) {
         <CardHeader><CardTitle>Cheaper plans that fit your usage</CardTitle></CardHeader>
         <CardContent>
           {matches.length === 0 ? (
-            <p className="text-muted-foreground">You're already on a good deal. Nothing cheaper fits your usage.</p>
+            <p className="text-muted-foreground">You&apos;re already on a good deal. Nothing cheaper fits your usage.</p>
           ) : (
             <ul className="space-y-3">
               {matches.map((p) => (
