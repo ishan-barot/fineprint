@@ -75,6 +75,20 @@ export default function Home() {
       {state.step === "error" && <p role="alert" className="text-destructive">{state.message}</p>}
       {state.step === "manual" && <ManualForm reason={state.reason} onSubmit={(manual) => send({ manual })} />}
       {state.step === "done" && <Results result={state.result} />}
+      
+            <footer className="pt-8 text-center text-sm text-muted-foreground">
+        Built by{" "}
+        <a href="https://github.com/ishan-barot" target="_blank" rel="noreferrer" className="underline hover:text-foreground">
+          Ishan Barot
+        </a>
+        {" · "}
+        <a href="https://github.com/ishan-barot/fineprint" target="_blank" rel="noreferrer" className="underline hover:text-foreground">
+          Source
+        </a>
+        {" · "}
+        <a href="https://www.linkedin.com/in/ishan-b-6a7418284/" target="_blank" rel="noreferrer" className="underline hover:text-foreground">          LinkedIn
+        </a>
+      </footer>
     </main>
   );
 }
