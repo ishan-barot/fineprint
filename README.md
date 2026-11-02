@@ -1,5 +1,5 @@
 # Fineprint
-
+![CI](https://github.com/ishan-barot/fineprint/actions/workflows/ci.yml/badge.svg)
 Upload a phone bill. See every charge in plain English, get warned about waste, and find a cheaper Canadian plan.
 
 **Live:** https://fineprint-flame.vercel.app
