@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 import type { Bill, PlanMatch, WasteFlag } from "@fineprint/core";
 import { readBillText } from "@/lib/readBill";
 import { Button } from "@/components/ui/button";
@@ -75,6 +75,20 @@ export default function Home() {
       {state.step === "error" && <p role="alert" className="text-destructive">{state.message}</p>}
       {state.step === "manual" && <ManualForm reason={state.reason} onSubmit={(manual) => send({ manual })} />}
       {state.step === "done" && <Results result={state.result} />}
+      
+            <footer className="pt-8 text-center text-sm text-muted-foreground">
+        Built by{" "}
+        <a href="https://github.com/ishan-barot" target="_blank" rel="noreferrer" className="underline hover:text-foreground">
+          Ishan Barot
+        </a>
+        {" · "}
+        <a href="https://github.com/ishan-barot/fineprint" target="_blank" rel="noreferrer" className="underline hover:text-foreground">
+          Source
+        </a>
+        {" · "}
+        <a href="https://www.linkedin.com/in/ishan-b-6a7418284/" target="_blank" rel="noreferrer" className="underline hover:text-foreground">          LinkedIn
+        </a>
+      </footer>
     </main>
   );
 }
@@ -89,7 +103,7 @@ function Results({ result }: { result: Result }) {
           <CardContent>
             <ul className="space-y-2">
               {flags.map((f) => (
-                <li key={f.kind} className="flex items-start gap-2"><Badge variant="destructive">!</Badge><span>{f.message}</span></li>
+                <li key={f.kind} className="flex items-start gap-2"><Badge variant="destructive">!</Badge><span className="text-fp-warn">{f.message}</span></li>
               ))}
             </ul>
           </CardContent>
@@ -124,13 +138,15 @@ function Results({ result }: { result: Result }) {
                     <a href={p.url} target="_blank" rel="noreferrer" className="font-medium underline">{p.carrier} {p.name}</a>
                     <p className="text-sm text-muted-foreground">{cad(p.monthlyPrice)}/mo · {p.dataGB === null ? "Unlimited" : `${p.dataGB} GB`} · checked {p.lastVerified}</p>
                   </div>
-                  <Badge>Save {cad(p.savingsPerYear)}/yr</Badge>
+                  <span className="shrink-0 rounded-md bg-fp-good px-2 py-0.5 text-xs font-semibold text-fp-bg">Save {cad(p.savingsPerYear)}/yr</span>
                 </li>
               ))}
             </ul>
           )}
         </CardContent>
       </Card>
+
+      <AskBill bill={bill} flags={flags} matches={matches} />
     </div>
   );
 }
@@ -158,6 +174,44 @@ function ManualForm({ reason, onSubmit }: { reason: string; onSubmit: (m: Manual
           <label className="block text-sm">Data used last month in GB<Input inputMode="decimal" value={used} onChange={(e) => setUsed(e.target.value)} /></label>
           <Button type="submit">Find cheaper plans</Button>
         </form>
+      </CardContent>
+    </Card>
+  );
+}
+
+// grounded on the parsed bill only, the api refuses anything off topic
+function AskBill({ bill, flags, matches }: { bill: Bill; flags: WasteFlag[]; matches: PlanMatch[] }) {
+  const [q, setQ] = useState("");
+  const [answer, setAnswer] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  async function ask(e: FormEvent) {
+    e.preventDefault();
+    if (!q.trim()) return;
+    setBusy(true);
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ bill, flags, matches, question: q }),
+      });
+      setAnswer(res.ok ? (await res.json()).answer : "Couldn't answer that right now.");
+    } catch {
+      setAnswer("Couldn't reach the server. Try again.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardHeader><CardTitle>Ask about this bill</CardTitle></CardHeader>
+      <CardContent>
+        <form onSubmit={ask} className="flex gap-2">
+          <Input aria-label="Ask about this bill" placeholder="Why is my bill higher than my plan price?" value={q} onChange={(e) => setQ(e.target.value)} />
+          <Button type="submit" disabled={busy}>{busy ? "..." : "Ask"}</Button>
+        </form>
+        {answer && <p className="mt-3 whitespace-pre-line" aria-live="polite">{answer}</p>}
       </CardContent>
     </Card>
   );

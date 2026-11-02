@@ -1,0 +1,11 @@
+/* generated from packages/core/src/tokens.ts, edit that file instead */
+@theme {
+  --color-fp-bg: #0B0F14;
+  --color-fp-surface: #121821;
+  --color-fp-text: #E8EEF5;
+  --color-fp-muted: #8A97A8;
+  --color-fp-primary: #4F8CFF;
+  --color-fp-good: #2FBF71;
+  --color-fp-warn: #F5A524;
+  --color-fp-bad: #F05252;
+}
