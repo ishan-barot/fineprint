@@ -20,7 +20,7 @@ export default function ResultScreen() {
           <Text style={ui.link}>‹ Back</Text>
         </Pressable>
 
-        {saved === null && <Text style={ui.muted}>That bill isn't on this phone anymore.</Text>}
+        {saved === null && <Text style={ui.muted}>{"That bill isn't on this phone anymore."}</Text>}
 
         {saved && (
           <>

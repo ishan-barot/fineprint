@@ -91,7 +91,7 @@ export default function Home() {
 
         <Text style={[ui.h2, { marginTop: 12 }]}>Past bills</Text>
         {history.length === 0 ? (
-          <Text style={ui.muted}>Bills you decode show up here. They're saved only on this phone.</Text>
+          <Text style={ui.muted}>{"Bills you decode show up here. They're saved only on this phone."}</Text>
         ) : (
           history.map((b) => (
             <Pressable key={b.id} style={ui.card} onPress={() => router.push(`/result/${b.id}`)} accessibilityRole="button">
