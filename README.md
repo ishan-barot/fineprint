@@ -54,6 +54,7 @@ Turborepo monorepo:
 | Accessibility | axe-core | WCAG 2 A/AA checks in E2E (it caught a real contrast bug) |
 | Mobile E2E | Maestro | onboarding to decode to history flow on Android |
 | CI | GitHub Actions | lint, typecheck, tests, e2e on every PR, protected `main`, Vercel previews |
+| Agent repair | [MobileForge](https://github.com/ishan-barot/mobileforge) | 18-case planted-bug benchmark run against this repo |
 
 ## Screenshots
 | Web | Mobile |
